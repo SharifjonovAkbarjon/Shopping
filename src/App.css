@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+.container{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.skeleton__img{
+    width: 100%;
+    height: 250px;
+    background: #ddd;
+    border-radius: 14px;
+}
+
+.skeleton__line{
+    width: 100%;
+    height: 30px;
+    background: #ddd;
+    margin-top: 14px;
+    border-radius: 6px;
+}
+
+.skeleton__line:nth-child(3){
+    width: 80%; 
+}
+.skeleton__line:nth-child(4){
+    width: 60%; 
+}
+
+.skeleton__animation{
+    background: linear-gradient(90deg, #ddd, #f7f7f7, #ddd);
+    background-size: 200%;
+    animation: skeleton 1s linear 0s infinite;
+}
+
+@keyframes skeleton {
+    to {
+        background-position: 200%;
+    }
+}
+
+.hero{
+    background-image: url(../src/assets/bg_hero.png);
+    object-fit: cover;
+    width: 100%;
+}
+
+/* .navbar{
+    position:fixed;
+}
+.hero{
+    padding-top: 100px;
+} */

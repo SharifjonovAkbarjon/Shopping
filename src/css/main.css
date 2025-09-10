@@ -1,0 +1,15 @@
+.button {
+    background-color: #634C9F;
+    border-radius: 8px;
+    color: white;
+}
+.button:hover {
+    background-color: rgb(126, 34, 206);
+    cursor: pointer;
+}
+
+.registerInput{
+    outline-color: rgb(126, 34, 206);
+    color: #D1D5DB;
+    border-radius: 8px;
+}
